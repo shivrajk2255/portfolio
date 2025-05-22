@@ -113,7 +113,8 @@ body {
 .profile-image {
     width: 150px;
     height: 150px;
-    background: #FFF8E1;
+    background: url(my_image.jpeg) no-repeat center center;
+    background-size: cover;
     border-radius: 50%;
     margin: 0 auto 1rem;
     border: 4px solid #FFB300;
