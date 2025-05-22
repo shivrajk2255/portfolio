@@ -3,155 +3,203 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Shivraj Kumar - Data Engineer Portfolio showcasing expertise in PySpark, Apache Iceberg, Docker, and SafeRoute AI project.">
-    <meta name="keywords" content="data engineer, PySpark, Apache Iceberg, Docker, Tableau, Hadoop, Kafka, portfolio">
+    <meta name="description" content="Shivraj Kumar - Data Engineer Portfolio showcasing expertise in PySpark, Tableau, and Hadoop.">
+    <meta name="keywords" content="data engineer, PySpark, Tableau, Hadoop, SQL, Docker, Kafka, portfolio">
     <meta name="author" content="Shivraj Kumar">
     <title>Shivraj Kumar - Data Engineer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Lato:wght@300;700&family=Dancing+Script:wght@400&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Shivraj Kumar</div>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <div class="logo">Shivraj Kumar</div>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
     <section id="hero">
-        <h1>Shivraj Kumar</h1>
-        <h2>Data Engineer | PySpark | Apache Iceberg | Docker</h2>
-        <a href="#contact" class="btn">Get in Touch</a>
-        <a href="Shivraj_Kumar_Resume.pdf" class="btn" download>Download Resume</a>
+        <div class="hero-content">
+            <div class="profile-image"></div>
+            <h1 class="animate-reveal">Shivraj Kumar</h1>
+            <h2 class="animate-reveal">Data Engineer | PySpark | Tableau</h2>
+            <p class="typewriter">Transforming data into insights with precision and scalability.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn animate-pulse">Get in Touch</a>
+                <a href="Shivraj_Kumar_Resume.pdf" class="btn btn-primary animate-pulse" download>Download Resume</a>
+            </div>
+        </div>
+        <div class="hero-overlay">
+            <div class="wave"></div>
+        </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="section">
         <h2>About Me</h2>
-        <p>I’m a passionate Data Engineer with expertise in building scalable ETL pipelines using PySpark, Apache Iceberg, and Docker. With a strong foundation in Python, SQL, and big data technologies like Hadoop and Kafka, I specialize in transforming complex datasets into actionable insights. My work on the SafeRoute AI project and at Cotiviti demonstrates my ability to deliver impactful solutions, such as improving processing speeds by over 80%. I hold a B.Tech from NIT Raipur and am committed to driving innovation through data.</p>
+        <div class="card stagger-left">
+            <p>I’m a dedicated Data Engineer with expertise in PySpark, Tableau, and Hadoop, focused on building scalable ETL pipelines and delivering actionable insights. At Cotiviti, I’ve improved processing speeds by over 80% through optimized PySpark scripts and Airflow workflows. With a B.Tech from NIT Raipur (8.28 CPI), I combine technical proficiency with strong collaboration skills to drive data-driven solutions.</p>
+        </div>
     </section>
 
-    <section id="skills">
+    <section id="quote" class="section">
+        <blockquote class="quote-text">"Turning raw data into meaningful stories, one pipeline at a time."</blockquote>
+    </section>
+
+    <section id="skills" class="section">
         <h2>Skills</h2>
         <div class="skills-container">
             <div class="skill-category">
                 <h3>Programming & Tools</h3>
-                <ul>
-                    <li>Python</li>
-                    <li>SQL</li>
-                    <li>PySpark</li>
-                    <li>Docker</li>
-                    <li>Git</li>
-                    <li>WinSCP</li>
-                    <li>PuTTY</li>
-                </ul>
+                <div class="skill-badges">
+                    <div class="skill-badge"><span>Python</span><div class="skill-back">Python: Data Processing</div></div>
+                    <div class="skill-badge"><span>SQL</span><div class="skill-back">SQL: Querying</div></div>
+                    <div class="skill-badge"><span>PySpark</span><div class="skill-back">PySpark: Big Data</div></div>
+                    <div class="skill-badge"><span>Docker</span><div class="skill-back">Docker: Containers</div></div>
+                    <div class="skill-badge"><span>Git</span><div class="skill-back">Git: Version Control</div></div>
+                    <div class="skill-badge"><span>WinSCP</span><div class="skill-back">WinSCP: File Transfer</div></div>
+                </div>
             </div>
             <div class="skill-category">
                 <h3>Data Engineering & Big Data</h3>
-                <ul>
-                    <li>ETL Automation</li>
-                    <li>Airflow</li>
-                    <li>Kafka</li>
-                    <li>Apache Oozie</li>
-                    <li>Hadoop</li>
-                    <li>Impala</li>
-                    <li>Data Modelling</li>
-                </ul>
+                <div class="skill-badges">
+                    <div class="skill-badge"><span>ETL Automation</span><div class="skill-back">ETL: Pipelines</div></div>
+                    <div class="skill-badge"><span>Airflow</span><div class="skill-back">Airflow: Workflows</div></div>
+                    <div class="skill-badge"><span>Kafka</span><div class="skill-back">Kafka: Streaming</div></div>
+                    <div class="skill-badge"><span>Hadoop</span><div class="skill-back">Hadoop: Distributed</div></div>
+                    <div class="skill-badge"><span>Impala</span><div class="skill-back">Impala: Querying</div></div>
+                    <div class="skill-badge"><span>Oozie</span><div class="skill-back">Oozie: Scheduling</div></div>
+                </div>
             </div>
             <div class="skill-category">
                 <h3>Data Analysis & Visualization</h3>
-                <ul>
-                    <li>Tableau (Desktop, Prep, Server, REST API)</li>
-                    <li>Power BI</li>
-                    <li>SAP BO</li>
-                    <li>Excel</li>
-                    <li>EDA</li>
-                </ul>
+                <div class="skill-badges">
+                    <div class="skill-badge"><span>Tableau</span><div class="skill-back">Tableau: Dashboards</div></div>
+                    <div class="skill-badge"><span>Power BI</span><div class="skill-back">Power BI: Insights</div></div>
+                    <div class="skill-badge"><span>SAP BO</span><div class="skill-back">SAP BO: Reporting</div></div>
+                    <div class="skill-badge"><span>Excel</span><div class="skill-back">Excel: Analysis</div></div>
+                    <div class="skill-badge"><span>EDA</span><div class="skill-back">EDA: Exploration</div></div>
+                </div>
             </div>
             <div class="skill-category">
                 <h3>Machine Learning & AI</h3>
-                <ul>
-                    <li>Supervised & Unsupervised Learning</li>
-                    <li>Scikit-learn</li>
-                    <li>Pandas</li>
-                    <li>NumPy</li>
-                    <li>Model Development</li>
-                </ul>
+                <div class="skill-badges">
+                    <div class="skill-badge"><span>Scikit-learn</span><div class="skill-back">Scikit-learn: Models</div></div>
+                    <div class="skill-badge"><span>Pandas</span><div class="skill-back">Pandas: DataFrames</div></div>
+                    <div class="skill-badge"><span>NumPy</span><div class="skill-back">NumPy: Arrays</div></div>
+                    <div class="skill-badge"><span>Supervised Learning</span><div class="skill-back">Supervised: Predictions</div></div>
+                    <div class="skill-badge"><span>Unsupervised Learning</span><div class="skill-back">Unsupervised: Clustering</div></div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="experience">
+    <section id="experience" class="section">
         <h2>Experience</h2>
-        <div class="job">
+        <div class="card stagger-right">
             <h3>Data Engineer, Cotiviti</h3>
             <p>Pune, India | 06/2024 - Present</p>
             <ul>
-                <li>Developed scalable ETL pipelines using PySpark, Python, and SQL, improving processing speed by over 80%.</li>
-                <li>Designed modular PySpark scripts integrated with Airflow and Oozie for automated data workflows.</li>
-                <li>Implemented CI/CD best practices using Git for streamlined deployment across environments.</li>
+                <li>Developed scalable ETL pipelines using PySpark, Python, and SQL, improving processing speed by over 80% through optimized data ingestion and transformation.</li>
+                <li>Designed reusable PySpark scripts integrated with Airflow and Oozie, automating daily and weekly workflows with retries and dependency management.</li>
+                <li>Streamlined deployment using Git and CI/CD practices, ensuring smooth transitions across dev, QA, and prod environments.</li>
             </ul>
         </div>
-        <div class="job">
+        <div class="card stagger-left">
             <h3>Associate Data Analyst, Cotiviti</h3>
             <p>Pune, India | 07/2023 - 05/2024</p>
             <ul>
-                <li>Created dashboards in Power BI and Tableau, serving 100+ clients monthly with actionable insights.</li>
-                <li>Embedded analytics into external portals using Power BI Embedded and Tableau JavaScript API.</li>
-                <li>Designed robust workflows in Tableau Prep for complex dataset preparation and visualization.</li>
+                <li>Created Power BI and Tableau dashboards, delivering insights to over 100 clients monthly, enhancing data-driven decision-making.</li>
+                <li>Embedded analytics into external portals using Power BI Embedded and Tableau JavaScript API, providing secure, real-time access to reports.</li>
+                <li>Designed workflows with Tableau Prep, transforming complex datasets for visualization and analysis in dashboards.</li>
             </ul>
         </div>
-        <div class="job">
+        <div class="card stagger-right">
             <h3>Machine Learning Intern, Internship Studio</h3>
             <p>Remote | 01/2022 - 02/2022</p>
             <ul>
-                <li>Built a predictive model for YouTube ad view counts using video metrics and feature engineering.</li>
-                <li>Fine-tuned SVM, Decision Trees, Random Forest, and ANN models for optimal prediction accuracy.</li>
+                <li>Built a predictive model for YouTube ad view counts using video metrics, improving accuracy through feature engineering.</li>
+                <li>Fine-tuned models like SVM, Decision Trees, Random Forest, and ANN, optimizing prediction performance.</li>
             </ul>
         </div>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="section">
         <h2>Projects</h2>
-        <div class="project">
-            <h3>SafeRoute AI - Safety Indicator</h3>
-            <p>Tech Stack: Python, PySpark, Apache Iceberg, Hadoop, SQL, Git, Docker, Apache Kafka</p>
+        <div class="project-carousel">
+            <div class="carousel-wrapper">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>SafeRoute AI - Safety Indicator</h3>
+                        <p>Tech Stack: Python, PySpark, Apache Iceberg, Hadoop, SQL, Docker, Kafka</p>
+                        <ul>
+                            <li>Automated preprocessing and anomaly detection with PySpark, enhancing crime and accident data processing.</li>
+                            <li>Utilized Apache Iceberg on Hadoop for versioned data lakes, ensuring ACID compliance and scalability.</li>
+                            <li>Built a fault-tolerant pipeline with Kafka for real-time safety data processing, containerized with Docker.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>YouTube Ad View Prediction</h3>
+                        <p>Tech Stack: Python, Scikit-learn, Pandas, NumPy</p>
+                        <ul>
+                            <li>Developed a predictive model to estimate YouTube ad views using video metrics like duration and engagement.</li>
+                            <li>Implemented and fine-tuned models (SVM, Decision Trees, Random Forest, ANN) for improved accuracy.</li>
+                            <li>Applied feature engineering to enhance model performance and deliver reliable predictions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-prev">←</button>
+            <button class="carousel-next">→</button>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <h2>Certifications</h2>
+        <div class="card stagger-left">
             <ul>
-                <li>Automated preprocessing and anomaly detection with modular PySpark jobs for crime and accident data.</li>
-                <li>Utilized Apache Iceberg on Hadoop for versioned, ACID-compliant data lakes, ensuring scalability.</li>
-                <li>Built a fault-tolerant data pipeline with Kafka for real-time safety data processing.</li>
+                <li>Machine Learning Specialization (Coursera)</li>
+                <li>Data Analysis with Python (Coursera)</li>
+                <li>SQL Intermediate (Hackerrank)</li>
             </ul>
         </div>
     </section>
 
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Machine Learning Specialization (Coursera)</li>
-            <li>Data Analysis with Python (Coursera)</li>
-            <li>SQL Intermediate (Hackerrank)</li>
-        </ul>
+    <section id="awards" class="section">
+        <h2>Awards</h2>
+        <div class="card stagger-right">
+            <ul>
+                <li>Monthly Performance Award at Cotiviti (06/2024)</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="section">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:shivrajkumar2255@gmail.com">shivrajkumar2255@gmail.com</a></p>
-        <p>Phone: <a href="tel:+917903387090">790-338-7090</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com" target="_blank">LinkedIn Profile</a></p>
-        <p>GitHub: <a href="https://github.com" target="_blank">GitHub Profile</a></p>
-        <p>YouTube: <a href="https://youtube.com" target="_blank">YouTube Channel</a></p>
+        <div class="card stagger-left">
+            <p>Email: <a href="mailto:shivrajkumar2255@gmail.com">shivrajkumar2255@gmail.com</a></p>
+            <p>Phone: <a href="tel:+917903387090">790-338-7090</a></p>
+            <p>
+                <a href="https://linkedin.com" target="_blank" class="social-icon linkedin">LinkedIn</a>
+                <a href="https://github.com" target="_blank" class="social-icon github">GitHub</a>
+                <a href="https://youtube.com" target="_blank" class="social-icon youtube">YouTube</a>
+            </p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Shivraj Kumar. All rights reserved.</p>
+        <p>© 2025 Shivraj Kumar. All rights reserved.</p>
     </footer>
 
+    <canvas id="cursor-trail"></canvas>
     <script src="script.js"></script>
 </body>
 </html>
